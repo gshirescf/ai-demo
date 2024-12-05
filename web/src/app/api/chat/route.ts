@@ -4,7 +4,7 @@ export async function POST(request: Request) {
   const { prompt } = await request.json();
 
   try {
-    const workerResponse = await fetch("https://ai-demo-app.gabby-is-the-best.workers.dev", {
+    const workerResponse = await fetch("https://*-ai-demo-app.gabby-is-the-best.workers.dev", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ prompt }),
