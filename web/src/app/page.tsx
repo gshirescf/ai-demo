@@ -86,7 +86,7 @@ const Chat = () => {
 
 export default function Home() {
   return (
-    <div className="h-screen flex flex-col items-center justify-center">
+    <div className="w-screen h-screen flex flex-col items-center justify-center">
       <Chat />
     </div>
   );
